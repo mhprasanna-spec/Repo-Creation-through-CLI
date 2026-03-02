@@ -130,6 +130,6 @@ Then:
 
 Press Enter.
 
-🎉 DONE
+## 🎉 DONE
 
 Refresh GitHub page — your files will be there.
