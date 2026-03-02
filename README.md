@@ -45,7 +45,7 @@ DO NOT initialize with README
 
 Keep that page open.
 
-🚀 STEP 4 — Generate GitHub Token (PAT)
+## 🚀 STEP 4 — Generate GitHub Token (PAT)
 
 Go to GitHub
 
@@ -67,16 +67,18 @@ Generate token
 
 COPY the token (very important)
 
-🚀 STEP 5 — Initialize Git in EC2
+## 🚀 STEP 5 — Initialize Git in EC2
 
 Go to your Terraform folder:
 
 cd ~
 
 Then:
-
+```
 git init
-🚀 STEP 6 — Add Remote Repository
+```
+
+## 🚀 STEP 6 — Add Remote Repository
 
 From your GitHub repo page copy HTTPS URL:
 
@@ -85,33 +87,42 @@ Example:
 https://github.com/hellokumar/terraform-alb-project.git
 
 Add it:
+```
 
 git remote add origin https://github.com/hellokumar/terraform-alb-project.git
+```
 
 Check:
-
+```
 git remote -v
-🚀 STEP 7 — Add Files
+```
+## 🚀 STEP 7 — Add Files
+```
 git add .
+```
 
 Check:
-
+```
 git status
-🚀 STEP 8 — Commit Files
+```
+## 🚀 STEP 8 — Commit Files
+```
 git commit -m "Initial Terraform ALB Project"
-🚀 STEP 9 — Push to GitHub (Using Token)
+```
+## 🚀 STEP 9 — Push to GitHub (Using Token)
+```
 git branch -M main
 git push -u origin main
-
+```
 It will ask:
 
-Username:
+- Username:
 
 👉 Enter your GitHub username
 
 Then:
 
-Password:
+- Password:
 
 👉 Paste the Personal Access Token (NOT your GitHub password)
 
